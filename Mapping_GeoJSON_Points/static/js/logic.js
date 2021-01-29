@@ -26,7 +26,7 @@ let sanFranAirport =
 
 
 // Grabbing our GeoJSON data.
-L.geoJson(sanFranAirport, {s
+L.geoJson(sanFranAirport, {
   onEachFeature: function(feature, layer){
     console.log(layer);
     layer.bindPopup("<h2> Airport Code: " + layer.feature.properties.faa + "</h2> <hr> Airport name: " + layer.feature.properties.name);
