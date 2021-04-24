@@ -1,5 +1,5 @@
 # Mapping_Earthquakes
-Module 13- JavaScript and APIs
+## JavaScript and APIs
 
 ## Overview of the Analysis ##
 The purpose of this module and challenge is to create a map of the world and chart various earthquake data onto the map.
